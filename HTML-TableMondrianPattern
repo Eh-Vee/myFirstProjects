@@ -9,6 +9,44 @@
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <title>Lab06</title>
 </head>
+/* CSS styling for table if CSS file cannot be opened:
+<style>
+table {
+   
+   width: 220px;
+   height: 220px;
+   border: 1px ridge black;
+   border-collapse: collapse;
+
+  }
+ table   td {
+        border: 1px ridge black;
+        column-width: 10px;
+        height: 10px;
+    }
+
+    .red {
+        background-color: red;
+    }   
+
+    .black {
+        background-color: black;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .white {
+        background-color: white;
+    }
+
+</style>
+*/
 
 <body>
 
