@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Information Form</title>
+
+</head>
+
+<body>
+
+    <h2>User Information Form</h2>
+
+    <form action="#" method="post">
+
+        <table>
+
+            <tr>
+
+                <td colspan="2"><strong>Personal Information:</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>First Name:</td>
+
+                <td><input type="text" name="firstName" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Last Name:</td>
+
+                <td><input type="text" name="lastName" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Gender:</td>
+
+                <td>
+
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+
+                    <label><input type="radio" name="gender" value="Other"> Other</label>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Date of Birth:</td>
+
+                <td><input type="date" name="dob" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Citizenship:</td>
+
+                <td>
+
+                    <select name="citizenship">
+
+                        <option value="US">United States</option>
+
+                        <option value="Canada">Canada</option>
+
+                        <option value="Other">Other</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="2"><strong>Contact Information:</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Email Address:</td>
+
+                <td><input type="email" name="email" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Phone Number:</td>
+
+                <td><input type="tel" name="phone" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Street Address:</td>
+
+                <td><input type="text" name="street" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>City:</td>
+
+                <td><input type="text" name="city" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>State:</td>
+
+                <td><input type="text" name="state" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Zip Code:</td>
+
+                <td><input type="text" name="zip" required></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="2"><strong>Educational Information:</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>School Name:</td>
+
+                <td><input type="text" name="school" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Degree Program:</td>
+
+                <td>
+
+                    <select name="degree">
+
+                        <option value="BS">Bachelor of Science</option>
+
+                        <option value="BA">Bachelor of Arts</option>
+
+                        <option value="MS">Master of Science</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Graduation Year:</td>
+
+                <td><input type="number" name="gradYear" required></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="2"><strong>Additional Information:</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Comments:</td>
+
+                <td><textarea name="comments"></textarea></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Preferred Contact Method:</td>
+
+                <td>
+
+                    <label><input type="checkbox" name="contactMethod" value="email"> Email</label>
+
+                    <label><input type="checkbox" name="contactMethod" value="phone"> Phone</label>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2"><input type="submit" value="Submit"></td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
