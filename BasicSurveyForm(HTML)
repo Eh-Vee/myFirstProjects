@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Potentially Graduating</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+
+  <body>
+    <h1 id="title">Students Potentially Graduating</h1>
+    <p id="description">We are gathering the information of students that should be preparing to graduate within a year.</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label id="name-label" for="name">Enter full name: <input id="name" type="text" placeholder="first last" required></label><br>
+        <label id="email-label" for="email">Enter e-mail: <input id="email" type="email" placeholder="abc123@email.com" required></label><br>
+        <label id="number-label" for="number">Enter school ID: <input id="number" type="number" pattern="[0-5]" min="8" max="15" placeholder="01234" required></label></fieldset>
+        <fieldset>
+        <legend>How many credit hours are you taking?</legend>
+        <select id="dropdown">
+          <option value="0">0</option>
+          <option value="3">3</option>
+          <option value="6">6</option>
+          <option value="9">9</option>
+          <option value"12">12</option>
+        </select>
+        </label></fieldset>
+        <fieldset>
+        <legend>Are you graduating this year?</legend>
+        <label for="yes">Yes
+          <input name="id" type="radio" id="yes" value="yes" checked>
+          </label>
+          <label for="no">No
+          <input name="id" type="radio" id="no" value="no">
+        </label>
+        </fieldset>
+        <fieldset>
+          <legend>Would you like more information on the graduation process?</legend>
+          <label id="graduating-label" for="graduating1">Yes
+            <input id="graduating1" type="checkbox" value="yes">
+          </label>
+          <label for="graduating2">No
+            <input id="graduating2" type="checkbox" value="no">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="comments">Addional comments: 
+            <textarea id="comments" type="textarea" rows="5" cols="20"></textarea>
+          </label>
+        </fieldset>
+        <span><input id="submit" type="submit" value"Submit"></span>
+    </form>
+  </body>
+</html>
