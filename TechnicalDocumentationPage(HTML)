@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>My Technical Docs</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Getting_Started" class="nav-link">Getting Started</a>
+    <a href="#Syntax_Overview" class="nav-link">Syntax Overview</a>
+    <a href="#Advanced_Topics" class="nav-link">Advanced Topics</a>
+    <a href="#Best_Practices" class="nav-link">Best Practices</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Welcome to the technical documentation page. This guide will walk you through essential concepts.</p>
+      <p>This documentation is designed to provide a thorough overview of a fictitious language.</p>
+      <code>console.log("Hello, world!");</code>
+      <p>We aim to help both beginners and advanced users.</p>
+      <ul>
+        <li>Overview</li>
+        <li>Installation</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header>Getting Started</header>
+      <p>To get started, you will need to install the development tools.</p>
+      <p>Ensure you have a code editor like VS Code.</p>
+      <code>npm install my-language</code>
+      <p>Then, run your first script.</p>
+      <code>my-lang run hello-world.ml</code>
+      <ul>
+        <li>Install dependencies</li>
+        <li>Set up environment variables</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Syntax_Overview">
+      <header>Syntax Overview</header>
+      <p>This section explains the basic syntax of the language.</p>
+      <p>It includes variables, conditionals, loops, and functions.</p>
+      <code>let x = 5;</code>
+      <code>if (x > 2) { doSomething(); }</code>
+      <p>Understanding syntax helps write clean code.</p>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Advanced_Topics">
+      <header>Advanced Topics</header>
+      <p>Advanced concepts include closures, classes, and asynchronous operations.</p>
+      <p>These topics build on basic knowledge.</p>
+      <code>class Animal { constructor(name) { this.name = name; } }</code>
+      <p>Mastering these topics improves efficiency.</p>
+      <ul>
+        <li>Closures</li>
+        <li>Classes</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Best_Practices">
+      <header>Best Practices</header>
+      <p>Following best practices leads to more maintainable code.</p>
+      <p>Use meaningful variable names and consistent formatting.</p>
+      <code>const userName = "Alice";</code>
+      <p>Keep functions small and focused.</p>
+      <ul>
+        <li>Code consistency</li>
+        <li>Documentation</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
