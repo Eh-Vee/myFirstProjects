@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -19,7 +19,7 @@ table {
    border-collapse: collapse;
 
   }
- table   td {
+ table, td {
         border: 1px ridge black;
         column-width: 10px;
         height: 10px;
@@ -51,7 +51,21 @@ table {
 <body>
 
     <table>
-
+        <thead>
+            <tr>
+                <th colspan="2">Red</th>
+                <th>Blue</th>
+                <th colspan="3">White</th>
+                <th colspan="3">Black</th>
+                <th>Red</th>
+                <th colspan="2">Blue</th>
+                <th>White</th>
+                <th colspan="3">Red</th>
+                <th colspan="2">Black</th>
+                <th colspan="2">Yellow</th>
+            </tr>
+        </thead>
+        <tbody>
         <tr>
             <td class="red" colspan="2"></td>
             <td class="blue" rowspan="4"></td>
@@ -170,7 +184,8 @@ table {
 
         <tr>
             <td class="blue" rowspan="3" colspan="4"></td>
-            <td class="red" rowspan="3"></td>
+        </tbody>
+    </table>
         </tr>
 
         <tr>
